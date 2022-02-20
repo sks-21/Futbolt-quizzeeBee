@@ -6,3 +6,5 @@
 
 /* ||Pages stylesheets  */
 @import "/homepage/homepage.css";
+@import "/categories/categories.css";
+@import "/rules/rules.css";

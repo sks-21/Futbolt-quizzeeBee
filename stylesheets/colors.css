@@ -11,4 +11,6 @@
     /* 500 */
 
     --color-secondary: #03dac6;
+    --color-error: #CF6679;
+    --color-success:#bef264;
 }
