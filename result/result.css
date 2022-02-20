@@ -1,0 +1,40 @@
+.res-container {
+    width: 800px;
+    padding: 1.6rem;
+    margin: auto;
+}
+
+/* || Result Header  */
+.res-title {
+    font-size: 6rem;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* || Result score  */
+.res-score-title {
+    font-size: 4rem;
+    margin: 1.6rem;
+    text-align: center;
+}
+
+/* || Result options  */
+.res-item:hover {
+    border-color: var(--color-bg-light);
+    cursor: default;
+}
+
+.res-item-error {
+    background-color: var(--color-error);
+    color: var(--color-bg);
+}
+
+.res-item-success {
+    background-color: var(--color-success);
+    color: var(--color-bg);
+}
+
+/* || Result buttons  */
+.res-buttons {
+    margin: auto;
+}
