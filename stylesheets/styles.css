@@ -1,0 +1,8 @@
+/* || Reset stylesheet */
+@import "./reset.css";
+
+/* || Colors stylesheets  */
+@import "./colors.css";
+
+/* ||Pages stylesheets  */
+@import "/homepage/homepage.css";

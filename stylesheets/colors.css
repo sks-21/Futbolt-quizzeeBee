@@ -1,0 +1,14 @@
+/* || Colors  */
+
+:root {
+    --color-bg: #1d2025;
+    --color-bg-light: #22252a;
+    --color-text: #ffffff;
+
+    --color-primary: #fde047;
+    /* 300 */
+    --color-primary-dark: #f59e0b;
+    /* 500 */
+
+    --color-secondary: #03dac6;
+}
