@@ -1,0 +1,44 @@
+.main {
+    grid-area: main;
+}
+
+/* || Card styles  */
+.quiz-card {
+    color: var(--color-text);
+    background-color: var(--color-bg-light);
+    padding: 1.6rem;
+    border-radius: 5px;
+    width: 25rem;
+    height: 42rem;
+}
+
+.vertical-card-content {
+    border: none;
+    padding: 0;
+}
+
+.card-title {
+    color: var(--color-primary);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.card-desc {
+    color: inherit;
+    font-size: 1.4rem;
+    margin-top: 4px;
+}
+
+.quiz-card-qns {
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+
+.quiz-card-btn {
+    margin: 8px 0 0 0;
+}
+
+.quiz-card-btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
