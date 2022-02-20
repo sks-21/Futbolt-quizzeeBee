@@ -10,7 +10,7 @@ body {
     grid-template-rows: 7rem 1fr 13rem;
     grid-template-areas:
         "nav nav nav"
-        "head head head"
+        "main main main"
         "foot foot foot";
     gap: 5px;
 }
@@ -79,7 +79,7 @@ body {
 
 /* || Header  */
 .header {
-    grid-area: head;
+    grid-area: main;
     padding: 2rem 6rem;
 
 }
