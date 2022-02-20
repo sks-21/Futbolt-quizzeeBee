@@ -1,0 +1,112 @@
+.qu-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.5fr 1fr 3fr 1fr 0.5fr;
+
+    grid-template-areas:
+        ".... .... head  .... ...."
+        ".... .... head  .... ...."
+        ".... .... head  .... ...."
+        ".... timer main butns ...."
+        ".... timer main butns .... "
+        ".... ....  main .... ...."
+        ".... ....  main .... .... "
+        ".... .... main .... .... "
+        ".... .... foot .... .... "
+        ".... .... foot .... ...."
+    ;
+}
+
+/* || Quiz header  */
+.qu-head {
+    grid-area: head;
+}
+
+.head-title {
+    font-size: 6rem;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* || Timer  */
+.qu-timer {
+    grid-area: timer;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.timer-value {
+    font-size: 8rem;
+    opacity: 0.9;
+
+}
+
+/* || Quiz buttons  */
+.qu-btns {
+    /* background-color: green; */
+    grid-area: butns;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.qu-buttons:hover {
+    background-color: var(--color-bg-light);
+    opacity: 0.8;
+}
+
+/* || Question container  */
+.question-container {
+    /* background-color: red; */
+    grid-area: main;
+    font-size: 1.6rem;
+
+    padding: 2.4rem 1.6rem;
+}
+
+.question-content {
+    margin: 2.4rem 0rem;
+    font-size: 2.4rem;
+}
+
+.question-option-container {
+    list-style: none;
+}
+
+.question-option-item {
+    border: 2px solid var(--color-bg-light);
+    background-color: var(--color-bg-light);
+    width: 100%;
+    padding: 2rem;
+    margin: 1.6rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.question-option-item:hover {
+    cursor: pointer;
+    border-color: var(--color-primary)
+}
+
+/* || Footer  */
+.qu-foot {
+    padding: 1.6rem;
+    grid-area: foot;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qu-foot-link {
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 8px 1.6rem;
+    border: 1px solid var(--color-bg);
+    border-radius: 5px;
+}
+
+.qu-foot-link:hover {
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary)
+}
