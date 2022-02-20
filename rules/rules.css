@@ -1,0 +1,31 @@
+.page-container {
+    height: 100vh;
+}
+
+.rules-container {
+    font-size: 1.6rem;
+    color: var(--color-text);
+    width: 80rem;
+    padding: 1.6rem;
+    background-color: var(--color-bg-light);
+    border-radius: 10px;
+}
+
+.rules-title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rules-success {
+    color: var(--color-success);
+}
+
+.rules-error {
+    color: var(--color-error);
+
+}
+
+.content-img{
+    object-fit: cover;
+}
