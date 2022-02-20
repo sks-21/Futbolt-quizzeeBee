@@ -1,0 +1,145 @@
+/* || Homepage Styles  */
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.home-container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 7rem 1fr 13rem;
+    grid-template-areas:
+        "nav nav nav"
+        "head head head"
+        "foot foot foot";
+    gap: 5px;
+}
+
+/* || Navbar  */
+.nav {
+    grid-area: nav;
+    background-color: inherit;
+    width: 100%;
+    color: var(--color-text);
+    font-size: 2rem;
+    padding: 8px 1.6rem;
+    flex-wrap: wrap;
+}
+
+.nav-logo {
+    height: 7rem;
+}
+
+.nav-title {
+    flex-grow: 1;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.nav-list-container {
+    margin-left: auto;
+    margin-right: 4rem;
+    flex-wrap: wrap;
+
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-item {
+    display: inline-block;
+    padding: 1.6rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link:hover {
+    color: var(--color-primary)
+}
+
+.btn-login {
+    margin: 0;
+}
+
+.btn-login:hover {
+    margin: 0;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.list-item-active {
+    color: var(--color-primary);
+    background-color: var(--color-bg-light);
+    border-radius: 5px;
+}
+
+/* || Header  */
+.header {
+    grid-area: head;
+    padding: 2rem 6rem;
+
+}
+
+.header-content {
+    padding: 1rem;
+    width: 50%;
+}
+
+.header-img-container {
+    width: 50%;
+    padding: 1rem;
+}
+
+.header-img {
+    display: block;
+}
+
+.header-content-title {
+    font-size: 7rem;
+}
+
+.header-content-desc {
+    font-size: 2rem;
+}
+
+.header-btn {
+    margin: 1.6rem 0;
+    width: fit-content;
+    color: var(--color-bg);
+}
+
+.header-btn:hover {
+    opacity: 0.9;
+    background-color: var(--color-primary);
+}
+
+/* || Footer  */
+.footer {
+    font-size: 1.6rem;
+    grid-area: foot;
+    padding: 1.6rem;
+    gap: 10px;
+}
+
+.footer-list {
+    list-style: none;
+    width: fit-content;
+
+}
+
+.footer-list-item {
+    padding: 8px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-link:hover {
+    color: var(--color-primary);
+}
