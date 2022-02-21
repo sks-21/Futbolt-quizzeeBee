@@ -1,4 +1,4 @@
-# [Futbolt quizzeeBee](https://futbolt-ui.netlify.app/)
+# [Futbolt quizzeeBee](https://futbolt-quizzeebee.netlify.app/)
  **Futbolt quizzeeBee** is an immersive football fandome quiz app. Built using [Futbolt Component Library](https://futbolt-ui.netlify.app/), it checks the footballing knowledge. It transcends the users back in time refreshing their memories about the rich heritage of football as well as the current trends ! <br>  
  >The die-hard fans of football would absolutely love this quiz !
 
@@ -45,12 +45,12 @@ Rules pages for the different quizes in the app.
 ![quiz-rules](https://user-images.githubusercontent.com/47688809/154993997-fa8f2d0e-fd97-4352-894e-32967feb8b34.PNG)
 
 
-### [Login Page]()
+### [Login Page](https://futbolt-quizzeebee.netlify.app/auth/login.html)
 Login page for the quiz app.
 
 ![quiz-login](https://user-images.githubusercontent.com/47688809/154948400-d6df7ae1-d847-47bc-9389-572cbd78f337.PNG)
 
-### [SignUp Page]()
+### [SignUp Page](https://futbolt-quizzeebee.netlify.app/auth/signup.html)
 SignUp for the quiz app.
 
 ![quiz-signup](https://user-images.githubusercontent.com/47688809/154994038-21015792-4605-4211-984d-9ecf51069302.PNG)
