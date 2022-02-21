@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | quizzeeBee</title>
+    <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://futbolt-ui.netlify.app/components/component.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+</head>
+
+<body>
+
+    <div class="page-container">
+
+        <!-- || Navbar Starts Here  -->
+        <nav class="qu-nav flx-row flx-main-center">
+            <div class="qu-nav-logo-container">
+                <img src="/assets/images/img-logo.png" alt="" loading="eager" class="qu-nav-logo" />
+            </div>
+            <div class="qu-nav-title">quizzeeBee</div>
+            <div class="qu-nav-list-container flx-row ">
+                <ul class="qu-nav-list">
+                    <li class="qu-nav-list-item">
+                        <a href="#" class="qu-nav-link">Home</a>
+                    </li>
+                    <li class="qu-nav-list-item">
+                        <a href="/categories/categories.html" class="qu-nav-link">Categories</a>
+                    </li>
+                    <li class="qu-nav-list-item">
+                        <a href="#" class="qu-nav-link">Leaderboard</a>
+                    </li>
+                    <li class="qu-nav-list-item">
+                        <button class="btn btn-outline btn-login">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- || Navbar Ends Here  -->
+        <div class="flx-col  flx-center login-container">
+            <!-- || Login  -->
+
+            <form action="#" class="form-1">
+
+                <div class="auth-heading"> Login</div>
+
+                <div class="form-comp-2">
+                    <label for="email" class="form-label">Enter email<sup class="sup-script txt-red">*</sup></label>
+                    <input type="email" id="email" class="form-input form-input-text">
+                </div>
+
+                <div class="form-comp-2">
+                    <label for="pswd" class="form-label">Enter password<sup class="sup-script txt-red">*</sup></label>
+                    <input type="password" id="pswd" class="form-input">
+                </div>
+
+                <div class="flx-row link-containers">
+                    <div>
+                        <input type="checkbox" name="login-terms" id="login-terms">
+                        <label for="login-terms" class="login-terms">Remember me</label>
+                    </div>
+                    <div> <a href="#" class="link-forgot">Forgot password</a></div>
+                </div>
+                <button class="btn btn-solid btn-loginz">Login</button>
+
+                <button class="btn btn-link btn-link-login">Create new account <i
+                        class="fas fa-arrow-right"></i></button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
