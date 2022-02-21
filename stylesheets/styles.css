@@ -10,3 +10,5 @@
 @import "/rules/rules.css";
 @import "/question/question.css";
 @import "/result/result.css";
+@import "/auth/login.css";
+@import "/auth/signup.css";

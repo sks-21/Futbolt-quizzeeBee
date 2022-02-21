@@ -16,7 +16,7 @@ body {
 }
 
 /* || Navbar  */
-.nav {
+.qu-nav {
     grid-area: nav;
     background-color: inherit;
     width: 100%;
@@ -26,38 +26,38 @@ body {
     flex-wrap: wrap;
 }
 
-.nav-logo {
+.qu-nav-logo {
     height: 7rem;
 }
 
-.nav-title {
+.qu-nav-title {
     flex-grow: 1;
     font-size: 3.2rem;
     font-weight: bold;
 }
 
-.nav-list-container {
+.qu-nav-list-container {
     margin-left: auto;
     margin-right: 4rem;
     flex-wrap: wrap;
 
 }
 
-.nav-list {
+.qu-nav-list {
     list-style: none;
 }
 
-.nav-list-item {
+.qu-nav-list-item {
     display: inline-block;
     padding: 1.6rem;
 }
 
-.nav-link {
+.qu-nav-link {
     text-decoration: none;
     color: inherit;
 }
 
-.nav-link:hover {
+.qu-nav-link:hover {
     color: var(--color-primary)
 }
 
@@ -142,4 +142,10 @@ body {
 
 .footer-link:hover {
     color: var(--color-primary);
+}
+
+/* || Media queries  */
+@media only screen and (min-width: 600px ){
+    
+
 }
