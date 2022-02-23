@@ -1,5 +1,4 @@
 /* || Colors  */
-
 :root {
     --color-bg: #1d2025;
     --color-bg-light: #22252a;
@@ -12,5 +11,5 @@
 
     --color-secondary: #03dac6;
     --color-error: #CF6679;
-    --color-success:#bef264;
+    --color-success: #bef264;
 }

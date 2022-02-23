@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | quizzeeBee</title>
+    <link rel="shortcut icon" href="/assets/images/img-logo-lg.png" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://futbolt-ui.netlify.app/components/component.css">
     <link rel="stylesheet" href="/stylesheets/styles.css">
@@ -24,16 +25,16 @@
             <div class="qu-nav-list-container flx-row ">
                 <ul class="qu-nav-list">
                     <li class="qu-nav-list-item">
-                        <a href="#" class="qu-nav-link">Home</a>
+                        <a href="/index.html" class="qu-nav-link">Home</a>
                     </li>
                     <li class="qu-nav-list-item">
                         <a href="/categories/categories.html" class="qu-nav-link">Categories</a>
                     </li>
                     <li class="qu-nav-list-item">
-                        <a href="#" class="qu-nav-link">Leaderboard</a>
+                        <a href="#" class="qu-nav-link">QuizBoard</a>
                     </li>
                     <li class="qu-nav-list-item">
-                        <button class="btn btn-outline btn-login">Login</button>
+                        <a href="#"><button class="btn btn-outline btn-login">Login</button></a>
                     </li>
                 </ul>
             </div>
@@ -65,8 +66,12 @@
                 </div>
                 <button class="btn btn-solid btn-loginz">Login</button>
 
-                <button class="btn btn-link btn-link-login">Create new account <i
-                        class="fas fa-arrow-right"></i></button>
+
+                <button class="btn btn-link btn-link-login"><a href="/auth/signup.html"
+                        class="txt-decoration-none txt-primary">Create new account <i
+                            class="fas fa-arrow-right"></i></a>
+                </button>
+                </a>
 
             </form>
         </div>
