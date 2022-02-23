@@ -14,16 +14,16 @@
 
 ## ScreenShots
 ### [Home Page](https://futbolt-quizzeebee.netlify.app/)
-Home page displaying beautiful images.
+Home page displaying beautiful image and links.
 
-![quiz-home](https://user-images.githubusercontent.com/47688809/154946427-208cd43c-a78c-4b1a-8463-b3e4d44bf98b.PNG)
+![newqu-landing](https://user-images.githubusercontent.com/47688809/155243746-924792f6-87ab-4827-b079-0b1d8e5f3761.PNG)
+ images.
 
 
 ### [Categories](https://futbolt-quizzeebee.netlify.app/categories/categories.html)
 Categories page displaying different categories of football leagues and related questions.
 
-![quiz-category](https://user-images.githubusercontent.com/47688809/154993822-2d68d597-e066-47dd-8606-95caf1a24981.PNG)
-
+![newqu-category](https://user-images.githubusercontent.com/47688809/155243895-3b056ce7-26b5-4cf2-8e3e-a030da346f62.PNG)
 
 ### [Questions](https://futbolt-quizzeebee.netlify.app/question/question.html)
 Basic layout of each questions in the quiz app.
