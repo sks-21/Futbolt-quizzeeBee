@@ -33,6 +33,7 @@
     grid-area: timer;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .timer-value {
@@ -43,10 +44,12 @@
 
 /* || Quiz buttons  */
 .qu-btns {
-    /* background-color: green; */
+    padding-top: 1.6rem;
     grid-area: butns;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .qu-buttons:hover {
@@ -59,7 +62,6 @@
     /* background-color: red; */
     grid-area: main;
     font-size: 1.6rem;
-
     padding: 2.4rem 1.6rem;
 }
 
@@ -109,4 +111,81 @@
 .qu-foot-link:hover {
     color: var(--color-primary);
     border: 1px solid var(--color-primary)
+}
+
+/* || Media queries  */
+
+@media only screen and (max-width:800px) {
+    :root {
+        font-size: 55%;
+    }
+
+    .qu-container {
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+
+        grid-template-areas:
+            " timer  ... butns "
+            " timer  ... butns "
+            " timer  ... butns "
+            " timer  head butns "
+            " timer  head butns "
+            "  main main main"
+            "  main main main"
+            "  foot  foot foot "
+            "  foot foot foot"
+        ;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    :root {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    :root {
+        font-size: 45%;
+    }
+
+
+    .qu-container {
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-template-areas:
+            " timer  .... butns "
+            " ....  .... .... "
+            " ....  .... .... "
+            " ....  head .... "
+            "  main main main"
+            "  main main main"
+            "  main main main"
+            "  foot foot foot"
+        ;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    :root {
+        font-size: 40%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+
+
+    .qu-container {
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+
+        grid-template-areas:
+            " timer  .... butns "
+            " ....  .... .... "
+            " ....  .... .... "
+            " ....  head .... "
+            "  main main main"
+            "  main main main"
+            "  main main main"
+            "  foot foot foot"
+        ;
+    }
 }

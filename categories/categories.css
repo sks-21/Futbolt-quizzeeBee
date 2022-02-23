@@ -1,5 +1,18 @@
-.main {
-    grid-area: main;
+.cat-home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cat-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2.4rem;
 }
 
 /* || Card styles  */
@@ -8,8 +21,8 @@
     background-color: var(--color-bg-light);
     padding: 1.6rem;
     border-radius: 5px;
-    width: 25rem;
-    height: 42rem;
+    width: 250px;
+    height: 420px;
 }
 
 .vertical-card-content {
@@ -41,4 +54,30 @@
 .quiz-card-btn:hover {
     background-color: var(--color-primary);
     color: var(--color-bg);
+}
+
+/* || Footer  */
+.cat-footer {
+    font-size: 1.6rem;
+    padding: 1.6rem;
+    gap: 10px;
+}
+
+.footer-list {
+    list-style: none;
+    width: fit-content;
+
+}
+
+.footer-list-item {
+    padding: 8px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-link:hover {
+    color: var(--color-primary);
 }
